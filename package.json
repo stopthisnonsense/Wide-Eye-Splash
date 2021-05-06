@@ -1,10 +1,13 @@
 {
-  "name": "h5bs",
+  "name": "wide-awake-splash",
   "private": "true",
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.0-beta3",
     "gulp-cache": "^1.1.2",
+    "gulp-purgecss": "^4.0.3",
     "gulp-util": "^3.0.8",
     "gulp-yaml": "^2.0.4",
     "jquery": "^3.4.1",
