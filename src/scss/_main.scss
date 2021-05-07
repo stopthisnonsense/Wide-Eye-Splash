@@ -69,8 +69,8 @@ body {
 }
 
 .btn {
-	font-weight: 500;
-	font-family: 'Montserrat Semibold';
+	font-weight: 700;
+	// font-family: 'Montserrat Semibold';
 	&--learn-more {
 		// font-size: 13px;
 		@include font-size(13px);
