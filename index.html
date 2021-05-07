@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="banner banner--splash py-5">
+        <div class="container-lg py-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-5 d-flex flex-column align-items-center">
+                    <img class="img img--logo" src="./assets/img/logo.png" alt="">
+                    <h1 class="visually-hidden">Darth For Galactic Overlord</h1>
+                    <form class="mt-5 form form--sign-up">
+                        <h2 class="visually-hidden">Sign Up</h2>
+                        <div class="mb-1">
+                            <label for="email-signup" class="visually-hidden">Email Address</label>
+                            <input type="email" class="input input--email" name="email" id="email-signup" placeholder="Email Address" aria-describedby="emailInstructions">
+                            <!-- <div id="emailInstructions" class="form-text">Email Format is 'email@example.com'</div> -->
+                        </div>
+                        <div class="mb-3">
+                            <label for="zip-signup" class="visually-hidden">Zip Code</label>
+                            <input type="text" name="zip" class="input input--zip" id="zip-signup" aria-describedby="zipInstructions" placeholder="Zip Code">
+                            <!-- <div id="zipInstructions" class="form-text">Zip Code Format is '00000'</div> -->
+                        </div>
+                        <div class="d-flex justify-content-stretch"><button class="btn btn-primary btn--sign-up">Sign Up</button></div>
+
+                    </form>
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section section--learn-more learn-more bg-dark py-5">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-md-6  d-flex justify-content-center">
+                <h2 class="visually-hidden">Learn More About Darth</h2>
+                <button class="btn btn-outline-secondary btn--learn-more dropdown-toggle" type="button" id="learnMoreButton" data-bs-toggle="modal" data-bs-target="#learnMore">Learn More About Darth</button>
+                <!-- Modal -->
+                <div class="modal modal--learn-more fade" id="learnMore" tabindex="-1" aria-labelledby="learnMoreTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog--learn-more modal-fullscreen-md-down modal-dialog-scrollable modal-lg modal-dialog-centered">
+                        <div class="modal-content modal-content--learn-more">
+                            <div class="modal-header">
+                                <h2 class="modal-title modal-title--learn-more" id="learnMoreTitle">About Darth</h2>
+                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body modal-body--learn-more">
+                                <p>A vergence in the Force, Skywalker was born on the desert planet of Tatooine in the Outer Rim Territories in 41 BBY. He was the son of Shmi Skywalker, a slave who conceived a child without a father. His blood contained over twenty-thousand midi-chlorians, surpassing that of Grand Master Yoda and all other Jedi in the galaxy.</p>
+                                <p>Skywalker struggled to keep his emotions in check—especially his anger. He cared deeply about his friends and "looked out for them until the end." Loyal to a fault, Skywalker was willing to do anything to protect those he cared about, often resorting to the dark side of the Force to do so. Throughout the Clone Wars (as Palpatine had planned), Skywalker's anger would push him ever closer to the dark side, but his fall was ultimately triggered by his fear of loss after experiencing visions of Amidala dying in childbirth and his desire to obtain enough power to save his loved ones. He would justify his immoral and ruthless actions as all being necessary to bring peace, justice and order to the galaxy.</p>
+                                <p>Over the years Vader developed a new, more hardened and disciplined persona. He became utterly ruthless, virtually devoid of mercy, and was known to occasionally kill his own officers for their failures. Eventually, the identity of Vader in the Empire had arisen tales of a dark armored humanoid who served as the Emperor's most trusted enforcer and was considered to be the most feared individual in the Empire. </p>
+                                <!-- Shamelessly stolen from wookiepedia -->
+                                </div>
+                            <!-- <div class="modal-footer modal-footer--learn-more">
+
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </section>
+    <footer class="bg-dark section section--footer pb-4">
+        <div class="row py-2">
+            <div class="col"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <a href="#" class="social social--fb"><span class="visually-hidden">Facebook</span><img src="./assets/img/fb.png" class="social__img social__img--fb" alt="Facebook"></a><a href="#" class="social social--tw"><span class="visually-hidden">Twitter</span><img src="./assets/img/tw.png" class="social__img social__img--tw" alt="Twitter"></a>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row py-2 pb-3">
+            <div class="col"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center"><a href="#" class="link link--privacy-policy">Privacy Policy</a></div>
+            <div class="col"></div>
+        </div>
+        <div class="row py-2">
+            <div class="col"></div>
+            <div class="col-12 col-md-6 d-flex justify-content-center"><a href="#" class="btn btn-outline-light btn--paid-for">Paid for by Darth for Galactic Overlord</a></div>
+            <div class="col"></div>
+        </div>
+    </footer>
+    <script src="./assets/js/commons.bundle.js" defer></script>
+    <script src="./assets/js/bundle.js" defer></script>
+</body>
+</html>
